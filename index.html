@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylo1.css"
+  <title>Contato</title>
+</head>
+<body>
+  <nav>
+    <a href="#" id="logo">Meu Site</a>
+    <ul id="menu">
+      <li class="item"><a href="#">HOME</a></li>
+      <li class="item"><a href="#">PROJETOS</a></li>
+      <li class="item"><a href="#">SOBRE</a></li>
+      <li class="item"><a href="contact.html">CONTATO</a></li>
+    </ul>
+  </nav>
+  <h1> Entre em Contato! </h1>
+<section class="box">
+  <div class="Contato">
+    <fieldset>
+   <legend><b>Formulário - Contato</b></legend>
+   <br>
+    <form action="/formulario-contato" method="post">
+      <div class="inputBox">
+          <label for="nome">Nome Completo:</label>
+          <br>
+          <input type="texto" id="nome" name="nome_usuario"required>
+      </div>
+      <br><br>
+      <div  class="inputBox">
+          <label for="email">E-mail:</label>
+          <br>
+          <input type="email" id="email" name="email_usuario"required >
+      </div>
+      <br><br>
+      <div class="inputBox">
+          <label for="message">Mensagem:</label>
+          <br>
+          <textarea id="message" name="message" cols="30" rows="10" placeholder=" Agradecemos sua mensagem!"></textarea>
+      </div>
+      <br><br>
+      <div class="button">
+        <button type="submit">Enviar</button>
+      </div>
+    </fieldset>
+  </form>
+  </div>
+</section>
+  <ul>
+    <li>
+      <a href="mailto:meuemail@email.com">meuemail@email.com</a>
+    </li>
+    <li>
+      <a href="tel:(31) - 9xxxx - xxxx"> (31) - 9xxxx - xxxx</a>
+    </li>
+  </ul>
+</body>
+</html>
